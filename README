@@ -1,0 +1,12 @@
+README
+======
+
+This python codes show the use of Proximal Gradient Descent and Accelerated Proximal Gradient Descent algorithms for solving LASSO formulation of optimization:
+
+LASSO: \min_x f(x):= \frac{1}{2}|Ax-b|^2 + \lambda|x|_1
+
+LASSO formulation can reconstruct original data from its noisy version by using the sparsity constraint.
+
+The current code takes a sparse vector (x*), applies a random linear transformation (i.e. multiply with a random matrix, A), and adds noise with it. It then takes the noisy vector and the transformation matrix and reconstracts the original sparse vector.
+
+The accelerated version demonstrates that it converges much faster than the normal version.
