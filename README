@@ -1,9 +1,12 @@
 README
 ======
 
-This python codes show the use of Proximal Gradient Descent and Accelerated Proximal Gradient Descent algorithms for solving LASSO formulation of optimization:
+I did it as a part of homework problem in the Advanced Machine Learning class taught by Prof Ji Liu in Fall 2014. 
 
-LASSO: \min_x f(x):= \frac{1}{2}|Ax-b|^2 + \lambda|x|_1
+This python codes show the use of Proximal Gradient Descent and Accelerated Proximal Gradient Descent algorithms
+for solving LASSO formulation of optimization:
+
+LASSO: $$\min_x f(x):= \frac{1}{2}|Ax-b|^2 + \lambda|x|_1$$
 
 LASSO formulation can reconstruct original data from its noisy version by using the sparsity constraint.
 
